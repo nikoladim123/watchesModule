@@ -28,7 +28,7 @@ body{
   transform: rotate(5deg);
 }
 .colorChangeButton{
-  margin-bottom: 0.5vw;
+  /* margin-bottom: 0.5vw; */
   position: relative;
   width: 2vw;
   height: 2vw;
@@ -36,6 +36,7 @@ body{
   overflow: hidden;
   border-radius: 50%;
   cursor: pointer;
+  border: 0.3vw solid #f2dbac;
 }
 
 .colorChangeBG {
