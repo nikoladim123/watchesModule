@@ -22,15 +22,16 @@ body{
 
 .colorChangeContainer{
   position: absolute;
-  top: 12vw;
+  top: 14vw;
   right: 28vw;
   transform: rotate(5deg);
 }
 .colorChangeButton{
   margin-bottom: 0.25vw;
   position: relative;
-  width: 3vw;
-  height: 3vw;
+  opacity: 0.6;
+  width: 2vw;
+  height: 2vw;
   /* border: 1px solid blue; */
   overflow: hidden;
   border-radius: 50%;
@@ -39,7 +40,6 @@ body{
 }
 
 .colorChangeBG {
-  opacity: 0.6;
   position: absolute;
   width: 6.1vw;
   transition: 0.5s ease;
