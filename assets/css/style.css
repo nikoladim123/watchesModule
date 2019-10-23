@@ -12,13 +12,12 @@ body{
 .coloredWatches{
   transition: all 1s ease;
   position: absolute;
-  width: 32%;
-  top: 6.5vw;
-  left: 51.3vw;
-  opacity: 1;
+  width: 34%;
+  top: 7vw;
+  left: 36.3vw;
+  opacity: 0;
 }
 .coloredWatches:nth-child(5){
-  left: calc(51.3vw - 3px);
 }
 
 .colorChangeContainer{
@@ -62,6 +61,6 @@ background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(51,5
 }
 
 .colorChangeBG:hover{
-  top: -2.7vw;
-  left: -2.7vw;
+  top: -2.5vw !important;
+  left: -2.5vw !important;
 }
