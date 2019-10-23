@@ -10,3 +10,13 @@ for (var i = 0; i < colorChangeButton.length; i++) {
     console.log(e.currentTarget.dataset.colorpick);
   })
 }
+
+
+var iterWatch = 0;
+setInterval(function () {
+  for (var i = 0; i < coloredWatches.length; i++) {
+    coloredWatches[i].style.opacity = '0';
+  };
+  coloredWatches[iterWatch % 5].style.opacity = '1';
+  iterWatch++;
+}, 2000);
